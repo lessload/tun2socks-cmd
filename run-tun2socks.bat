@@ -22,6 +22,7 @@ netsh int ipv4 set dns name=%tapName% static 127.0.0.1 primary validate=no
 set tapIp=10.0.0.1
 
 ::--- run tun2sock ---
+:: if use old driver > --tundev "tap0901:tap4socks:..."
 start /min cmd /c "tun2socks --tundev "root\tap0901:tap4socks:10.0.0.2:10.0.0.0:255.255.255.0" --netif-ipaddr 10.0.0.1 --netif-netmask 255.255.255.0 --socks-server-addr 127.0.0.1:1080 --socks5-udp --udp-relay-addr 127.0.0.1:1080 --loglevel none"
 timeout /t 2 > nul
 
