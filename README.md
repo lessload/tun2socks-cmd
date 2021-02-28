@@ -5,6 +5,7 @@ this script for use with `dnscrypt-proxy` in tcp mode.
 - remane TAP interface to `tap4socks` or what you want.
 - edit gateway data and proxy ip in script.
 - paste `*.bat` same directory as `tun2socks.exe`.
+- run `Shadowsocks.exe`
 - run `*.bat` as admin.
 
 ## other resource
@@ -17,6 +18,10 @@ __tap-windows__<br/>
 https://github.com/OpenVPN/tap-windows6<br/>
 or<br/>
 https://build.openvpn.net/downloads/releases/<br/>
+
+__Shadowsocks__<br/>
+https://github.com/shadowsocks/shadowsocks-windows<br/>
+
 
 ## Outline Client
 Client software running like my script.<br/>
