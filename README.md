@@ -1,4 +1,4 @@
-# tap2socks
+# tun2socks-cmd
 cmd script to use tun2socks with shadowsocks.<br/>
 this script for use with `dnscrypt-proxy` in tcp mode.
 - install TAP driver by Device Manager > Add legacy hardware.
