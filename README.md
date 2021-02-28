@@ -29,3 +29,6 @@ but they send back telemetry data by sentry.io<br/>
 and always connect to s3.amazonaws.com now sure why<br/>
 it's always connection fail for me, no luck.<br/>
 https://github.com/Jigsaw-Code/outline-client
+
+## Why TAP not wintun driver ?
+Please read > https://github.com/lessload/wireguard-wintun-problem
