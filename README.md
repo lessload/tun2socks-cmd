@@ -11,8 +11,7 @@ this script for use with `dnscrypt-proxy` in tcp mode.
 ## other resource
 __tun2socks__<br/>
 https://github.com/ambrop72/badvpn<br/>
-or<br/>
-https://code.google.com/archive/p/badvpn/downloads<br/>
+or `*.exe` from other folk.<br/>
 
 __tap-windows__<br/>
 https://github.com/OpenVPN/tap-windows6<br/>
